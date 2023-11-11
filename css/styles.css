@@ -5,10 +5,18 @@
 
 .result-container {
   border-radius: 100px;
-  /* background-color: aquamarine; */
 }
 
 /* Font Style below */
+h1 {
+  margin: 0px;
+  font-size: 58px;
+}
+
+.score-container h4 {
+  margin: 0;
+}
+
 span {
   font-size: 20px;
   font-weight: bolder;
@@ -47,7 +55,7 @@ span {
 .left-container,
 .right-container {
   height: 500px;
-  width: 18vw;
+  width: 20vw;
 }
 
 .left-container {
@@ -61,7 +69,7 @@ span {
 }
 
 .left-container {
-  background-color:rgb(82, 19, 255);
+  background-image: linear-gradient(rgb(95, 59, 251), rgb(52, 40, 225));
   
 }
 
@@ -71,7 +79,7 @@ span {
 
 .left-inner-container,
 .right-inner-container {
-  padding: 30px;
+  padding: 40px;
 }
 
 .result-container,
@@ -80,6 +88,19 @@ span {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border-radius: 50%;
+
+  background-image: linear-gradient( rgba(60, 38, 206) 50%, rgb(73, 47, 242) );
 }
 
 /* Right container style start */
@@ -112,7 +133,7 @@ span {
   display: flex;
   gap: 8px;
 }
-/* Characterstic Rating colors */
+/* Characteristic Rating colors */
 .one {
   background-color: rgb(255, 245, 244);
 }
